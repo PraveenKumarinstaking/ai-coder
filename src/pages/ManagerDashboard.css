@@ -1,0 +1,21 @@
+.manager-dashboard {
+    animation: fadeIn 0.3s ease-out;
+}
+
+.bottleneck-panel {
+    margin-bottom: var(--space-xl);
+}
+
+.bottleneck-panel h3 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: var(--space-lg);
+    color: var(--danger);
+}
+
+.panel-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: var(--space-lg);
+    color: var(--text-primary);
+}

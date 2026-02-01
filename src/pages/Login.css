@@ -1,0 +1,132 @@
+.login-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--space-xl);
+    background: linear-gradient(135deg, var(--bg-gradient-start) 0%, var(--bg-gradient-mid) 50%, var(--bg-gradient-end) 100%);
+}
+
+.login-container {
+    width: 100%;
+    max-width: 450px;
+}
+
+.login-card {
+    padding: var(--space-2xl);
+}
+
+.login-header {
+    text-align: center;
+    margin-bottom: var(--space-xl);
+}
+
+.login-logo {
+    font-size: 3rem;
+    display: block;
+    margin-bottom: var(--space-md);
+}
+
+.login-header h1 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, var(--text-primary), var(--primary-light));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: var(--space-xs);
+}
+
+.login-header p {
+    color: var(--text-secondary);
+    font-size: 0.875rem;
+}
+
+.login-form {
+    margin-bottom: var(--space-xl);
+}
+
+.login-btn {
+    width: 100%;
+    margin-top: var(--space-md);
+}
+
+.demo-accounts {
+    border-top: 1px solid var(--glass-border);
+    padding-top: var(--space-lg);
+}
+
+.demo-title {
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: var(--space-md);
+}
+
+.demo-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
+}
+
+.demo-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--space-md);
+    border-radius: var(--radius-md);
+    border: 1px solid var(--glass-border);
+    background: transparent;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.demo-btn:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.demo-btn.admin {
+    border-left: 3px solid var(--accent-purple);
+}
+
+.demo-btn.manager {
+    border-left: 3px solid var(--primary);
+}
+
+.demo-btn.user {
+    border-left: 3px solid var(--accent-cyan);
+}
+
+.demo-role {
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.demo-email {
+    font-size: 0.875rem;
+    color: var(--text-muted);
+}
+
+.login-features {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+    margin-top: var(--space-xl);
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    padding: var(--space-md);
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: var(--radius-md);
+    color: var(--text-secondary);
+    font-size: 0.875rem;
+}
+
+.feature-icon {
+    font-size: 1.25rem;
+}

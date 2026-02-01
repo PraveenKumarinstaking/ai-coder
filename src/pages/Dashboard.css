@@ -1,0 +1,30 @@
+.dashboard {
+    animation: fadeIn 0.3s ease-out;
+}
+
+.alerts-panel {
+    margin-bottom: var(--space-xl);
+}
+
+.panel-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: var(--space-lg);
+    color: var(--text-primary);
+}
+
+.panel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--space-lg);
+}
+
+.task-link {
+    color: var(--text-primary);
+    font-weight: 500;
+}
+
+.task-link:hover {
+    color: var(--primary-light);
+}
