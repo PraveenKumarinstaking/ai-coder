@@ -12,8 +12,8 @@ Road accidents are one of the leading causes of death and injury in India, espec
 Despite the availability of navigation and map-based applications, drivers are not proactively warned about historically dangerous accident zones before entering such areas.
 
 Existing systems either:
-1. Provide post-incident alerts, or
-2. Offer static navigation instructions without safety prioritization.
+- Provide post-incident alerts, or
+- Offer static navigation instructions without safety prioritization.
 
 There is no effective system that:
 - Uses historical accident zone data,
@@ -26,11 +26,11 @@ Hence, there exists a strong need for an intelligent, location-based accident ri
 The primary objective of the present invention is to reduce road accidents by proactively alerting drivers when approaching identified accident-prone locations.
 
 Other objectives include:
-- To provide hands-free voice alerts to minimize driver distraction.
-- To utilize historical accident data for identifying high-risk zones.
-- To enable real-time location tracking of vehicles.
-- To deliver context-aware safety warnings based on proximity.
-- To support government road safety initiatives.
+- To provide hands-free voice alerts to minimize driver distraction
+- To utilize historical accident data for identifying high-risk zones
+- To enable real-time location tracking of vehicles
+- To deliver context-aware safety warnings based on proximity
+- To support government road safety initiatives
 
 ## Summary of the Invention
 The present invention discloses a location-based accident risk alert system implemented through a mobile application that continuously monitors the real-time geographic location of a vehicle and compares it with a database of pre-identified accident-prone zones.
@@ -62,42 +62,43 @@ Each accident zone is assigned:
 - Severity index
 - Recommended caution level
 
-The mobile application continuously receives GPS location updates from the user’s device. When the system detects that the vehicle is approaching a high-risk zone within a predefined distance threshold (for example, 300 meters), the alert trigger module activates a voice warning message such as:
+The mobile application continuously receives GPS location updates from the user’s device.
 
-*“Warning: Accident-prone zone ahead. Please drive carefully.”*
+When the system detects that the vehicle is approaching a high-risk zone within a predefined distance threshold (for example, 300 meters), the alert trigger module activates a voice warning message such as:
+“Warning: Accident-prone zone ahead. Please drive carefully.”
 
 The alert may be repeated or intensified if:
-- The vehicle speed exceeds safe limits.
-- The driver does not reduce speed.
-- The time corresponds to higher risk periods (night, rain).
+- The vehicle speed exceeds safe limits
+- The driver does not reduce speed
+- The time corresponds to higher risk periods (night, rain)
 
 The system operates in the background and does not require user interaction during driving.
 
 ## Advantages of the Invention
-- Proactively reduces accident risk.
-- Hands-free voice alerts enhance safety.
-- Supports large-scale road safety deployment.
-- Can integrate with government traffic systems.
-- Works in regional languages.
-- Low infrastructure cost.
-- Scalable across regions and states.
+- Proactively reduces accident risk
+- Hands-free voice alerts enhance safety
+- Supports large-scale road safety deployment
+- Can integrate with government traffic systems
+- Works in regional languages
+- Low infrastructure cost
+- Scalable across regions and states
 
 ## Industrial Applicability
 The invention is applicable in:
-- Road safety management systems.
-- Smart transportation solutions.
-- Government traffic monitoring initiatives.
-- Insurance risk reduction programs.
-- Public safety applications.
+- Road safety management systems
+- Smart transportation solutions
+- Government traffic monitoring initiatives
+- Insurance risk reduction programs
+- Public safety applications
 
 The system can be deployed across cities, highways, and rural road networks.
 
 ## Scope of the Invention
 The scope of the invention is not limited to the present embodiment and may include future enhancements such as:
-- AI-based risk prediction.
-- Weather-based alert adjustments.
-- Vehicle-to-infrastructure communication.
-- Integration with emergency services.
+- AI-based risk prediction
+- Weather-based alert adjustments
+- Vehicle-to-infrastructure communication
+- Integration with emergency services
 
 ---
 
@@ -110,13 +111,12 @@ A Location-Based Accident Risk Detection and Proactive Voice Alert System for En
 The present invention discloses a location-aware accident risk detection and proactive alerting system that identifies pre-mapped accident-prone zones using historical accident data and provides real-time voice warnings to drivers upon approaching such zones. The system continuously monitors vehicle location, calculates proximity to high-risk areas, and generates intelligent alerts to promote safer driving behavior and reduce road accidents.
 
 ## Detailed Description of Drawings
-The invention is described with reference to the accompanying drawings:
-
-- **FIG. 1** illustrates the overall system architecture.
-- **FIG. 2** illustrates the accident zone detection workflow.
-- **FIG. 3** illustrates the alert triggering mechanism.
-- **FIG. 4** illustrates the mobile application operational flow.
-- **FIG. 5** illustrates severity-based voice alert logic.
+The invention is described with reference to the accompanying drawings, wherein:
+- **FIG. 1** illustrates the overall system architecture
+- **FIG. 2** illustrates the accident zone detection workflow
+- **FIG. 3** illustrates the alert triggering mechanism
+- **FIG. 4** illustrates the mobile application operational flow
+- **FIG. 5** illustrates severity-based voice alert logic
 
 ### Description of Drawings (Textual Explanation)
 
@@ -130,27 +130,27 @@ The invention is described with reference to the accompanying drawings:
 All modules communicate through a mobile computing device.
 
 #### FIG. 2 – Accident Zone Detection Workflow
-- Collection of historical accident data.
-- Identification of high-risk zones.
-- Assignment of severity index.
-- Storage of geo-coordinates.
+- Collection of historical accident data
+- Identification of high-risk zones
+- Assignment of severity index
+- Storage of geo-coordinates
 
 #### FIG. 3 – Alert Triggering Mechanism
-- Continuous GPS monitoring.
-- Distance calculation.
-- Threshold comparison.
-- Alert activation decision.
+- Continuous GPS monitoring
+- Distance calculation
+- Threshold comparison
+- Alert activation decision
 
 #### FIG. 4 – Mobile Application Flow Diagram
-- App initialization.
-- Background service activation.
-- Real-time monitoring.
-- Voice alert delivery.
+- App initialization
+- Background service activation
+- Real-time monitoring
+- Voice alert delivery
 
 #### FIG. 5 – Severity-Based Voice Alert Logic
-- Low-risk warning.
-- Medium-risk repeated alert.
-- High-risk intensified alert.
+- Low-risk warning
+- Medium-risk repeated alert
+- High-risk intensified alert
 
 ## Detailed Description of the Invention
 The present invention provides a mobile-based road safety system that utilizes historical accident data to identify accident-prone zones and proactively warns drivers using real-time voice alerts.
@@ -170,7 +170,7 @@ The alert intensity and repetition are dynamically controlled based on risk para
    - A real-time location acquisition module configured to obtain continuous vehicle location data;
    - A risk evaluation engine configured to calculate a proximity value between the vehicle location and one or more accident-prone road segments;
    - An alert decision module configured to compare the proximity value against a dynamically determined threshold; and
-   - A voice-based notification module configured to automatically generate and deliver proactive audible warnings to a driver before entry into an accident-prone zone.
+   - A voice-based notification module configured to automatically generate and deliver proactive audible warnings to a driver before entry into an accident-prone zone,
    *Wherein the system operates autonomously during vehicle movement to reduce accident risk.*
 
 ## Dependent System Claims
@@ -200,3 +200,47 @@ The alert intensity and repetition are dynamically controlled based on risk para
 14. The system as claimed in claim 1, wherein the system supports deployment across multiple geographic regions.
 15. The system as claimed in claim 1, further comprising an artificial intelligence module configured to predict accident risk levels.
 
+---
+
+# PART B: PATENT-READY DIAGRAM CONTENT
+
+## FIG. 1 – Overall System Architecture
+A block diagram showing:
+- Mobile Computing Device (10)
+- Accident Zone Database (20)
+- Location Acquisition Module (30)
+- Risk Evaluation Engine (40)
+- Alert Decision Module (50)
+- Voice Notification Module (60)
+- User Interface (70)
+*All modules interconnected within the mobile device.*
+
+## FIG. 2 – Accident Zone Identification Process
+Flow diagram showing:
+- Collection of historical accident data
+- Identification of accident-prone road segments
+- Assignment of severity values
+- Storage in geo-referenced database
+
+## FIG. 3 – Proximity Detection & Alert Trigger Logic
+Flow diagram showing:
+- Start
+- Acquire real-time GPS location
+- Calculate distance to nearest accident zone
+- Compare with threshold
+- If YES → Trigger alert
+- If NO → Continue monitoring
+
+## FIG. 4 – Mobile Application Operational Flow
+Flow diagram showing:
+- App initialization
+- Background service activation
+- Continuous monitoring loop
+- Voice alert generation
+- Driver response detection
+
+## FIG. 5 – Severity-Based Voice Alert Mechanism
+Diagram showing:
+- Low-risk zone → Single caution alert
+- Medium-risk zone → Repeated alert
+- High-risk zone → High-priority warning
